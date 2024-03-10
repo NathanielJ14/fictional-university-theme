@@ -1,6 +1,8 @@
 <?php
+    //Include header
     get_header();
 
+    //Single blog post page
     while (have_posts()) {
         the_post(); ?>
         <div class="page-banner">
@@ -26,5 +28,6 @@
         </div>
     <?php }
 
+    //Include footer
     get_footer();
 ?>
