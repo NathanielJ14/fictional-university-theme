@@ -1,4 +1,5 @@
 <?php
+    //Include Header
     get_header();
 
 while (have_posts()) {
@@ -59,5 +60,6 @@ while (have_posts()) {
 
 <?php }
 
+    //Include Footer
     get_footer();
 ?> 

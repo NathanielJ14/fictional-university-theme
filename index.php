@@ -1,4 +1,5 @@
 <?php
+    //Include Header
     get_header();
 ?>
 
@@ -32,5 +33,6 @@
 </div>
 
 <?php
+    //Include Footer
     get_footer();
 ?>
