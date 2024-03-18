@@ -20,15 +20,15 @@
 
     add_action('after_setup_theme', 'university_features');
 
-    //Set up custom event post type
-    function university_post_types() {
-        register_post_type('event', array(
-            'public' => true,
-            'labels' => array(
-                'name' => 'Events'
-            ),
-            'menu_icon' => 'dashicons-calendar'
-        ));
-    }
+    // //Set up custom event post type (moved into another file)
+    // function university_post_types() {
+    //     register_post_type('event', array(
+    //         'public' => true,
+    //         'labels' => array(
+    //             'name' => 'Events'
+    //         ),
+    //         'menu_icon' => 'dashicons-calendar'
+    //     ));
+    // }
 
-    add_action('init', 'university_post_types');
+    // add_action('init', 'university_post_types');
